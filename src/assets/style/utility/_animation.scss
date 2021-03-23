@@ -1,0 +1,6 @@
+.fade-enter-active , .fade-leave-active{
+  transition: .5s opacity;
+}
+.fade-enter ,.fade-leave-active{
+  opacity: 0;
+}

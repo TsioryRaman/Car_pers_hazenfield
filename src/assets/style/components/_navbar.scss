@@ -1,0 +1,26 @@
+
+.navbar {
+  padding: 0;
+  background-color: inherit;
+  .container_nav {
+    justify-content: center;
+    border-bottom: 1px solid var(--border-light);
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .navbar-collapse{
+    flex-grow: 0;
+    ul li:first-child {
+      padding-right: 0.5em;
+      margin-right: 0.55em;
+      border-right: 1px solid var(--border-light);
+    }
+  }
+  a {
+    color: var(--color-gray-light);
+    transition: .3s color;
+    &.active,&:hover {
+      color: var(--color-gray);
+    }
+  }
+}
